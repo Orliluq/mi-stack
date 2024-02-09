@@ -1,0 +1,87 @@
+/* General styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat", sans-serif; /* Use Montserrat if available */
+    color: #1f1d1f;
+  }
+  
+  /* Header styling */
+  header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    background-color: #f2f2f2; /* Optional background color */
+  }
+  
+  .title {
+    font-size: 2rem;
+    font-weight: bold;
+    margin: 0;
+  }
+  
+  .avatar {
+    width: 150px;
+    height: 150px;
+    border-radius: 70%;
+    margin-right: 1rem;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
+  }
+  
+  /* Main content styling */
+  main {
+    padding: 2rem;
+  }
+  
+  section {
+    margin-bottom: 2rem;
+  }
+  
+  /* Technical skills section */
+  .technical-skills {
+    border: 1px solid #333232;
+    border-radius: 10px; /* Increased border radius for a card-like effect */
+    padding: 1rem;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Shadow for the card */
+  }
+  
+  .skills-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .skills-list li {
+    margin-bottom: 0.5rem;
+  }
+  
+  /* Skills badges section */
+  .skills-badges {
+    text-align: center;
+  }
+  
+  .skills-badges img {
+    width: 80%;
+    max-width: 500px; /* Adjust as needed */
+  }
+  
+  /* Responsiveness */
+  @media (max-width: 768px) {
+    .title {
+      font-size: 1.5rem;
+    }
+  
+    .avatar {
+      width: 80px;
+      height: 80px;
+    }
+  
+    .skills-badges img {
+      width: 100%;
+    }
+  }
+  
+  /* Additional styling options */
+  /* You can add more styles here to customize the look and feel further,
+     such as background colors, borders, shadows, etc. */
